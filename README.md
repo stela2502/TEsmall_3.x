@@ -6,6 +6,27 @@ I am in no way an experienced Pythhon guy and this is just a try to make it work
 I am 100% sure this is broken as I deactivated all plotting as the used library is not existing any more.
 
 
+## Install in a Singulatity Image
+
+``` 
+singularity --version
+```
+
+singularity version 3.6.3+50-gccc015a9e
+
+To init a Singularity image do:
+
+```
+singularity build --sandbox --fakeroot ubuntu/ Singularity
+```
+
+[Using this setup file.](./Singularity)
+
+To help with the downstream installing of this package I have an additional [makefile](.Makefile) and [a small script to get me into the image](.shell.sh).
+
+I hope this helps in creating singularity images for this package.
+
+
 ## TEsmall
 
 A pipeline for profiling TE-derived small RNAs
