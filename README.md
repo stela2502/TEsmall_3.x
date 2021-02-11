@@ -22,7 +22,7 @@ singularity build --sandbox --fakeroot ubuntu/ Singularity
 
 [Using this setup file.](./Singularity)
 
-To help with the downstream installing of this package I have an additional [makefile](.Makefile) and [a small script to get me into the image](.shell.sh).
+To help with the downstream installing of this package I have an additional [makefile](./Makefile) and [a small script to get me into the image](./shell.sh).
 
 I hope this helps in creating singularity images for this package.
 
